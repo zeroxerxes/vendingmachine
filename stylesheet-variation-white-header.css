@@ -1,0 +1,47 @@
+
+
+/*Header*/
+.logo1 {
+	display: none !important;	
+}
+.logo2 {
+	display: inline-block!important;	
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	background-image: none;
+	height: 145px;
+}
+#logo {
+    padding-bottom: 0px;
+}
+.menu-icons-div.menu-icons-email {
+    background-image: url(images/icon-email-black.png);
+}
+.menu-icons-div.menu-icons-tel {
+    background-image: url(images/icon-tel-black.png);
+}
+
+
+
+@media screen and (min-width: 1140px) {
+	nav ul li a {
+		color: #000000;
+	}
+}
+
+@media screen and (max-width: 1139px) {
+	.toggleMenu span.touch-btn:first-of-type {
+		background: url(images/plus-minus-black.png) no-repeat 50% 2px #666;
+	}
+}
+
+
+
+
+
