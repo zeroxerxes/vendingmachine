@@ -28,7 +28,7 @@
 
 
 @font-face {
-    font-family: 'Quicksand';
+    font-family: 'latoregular';
     src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
          url('fonts/lato-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -64,14 +64,14 @@
 }
 body {
 	margin: 0;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	font-weight: 400;
 	font-size: 100%;
 	line-height: 1.5;
 	color: #757575;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
     font-weight: normal;
     color: #000;
     margin: 1em 0em;
@@ -293,7 +293,7 @@ img.bordered {border: #ccc 1px solid;}
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     background-color: transparent;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
     text-transform: uppercase;
     background-image: url(images/White-Button.png);
     background-repeat: no-repeat;
@@ -743,13 +743,13 @@ figure.header-two figcaption P {
 }
 .footer-wrap a {
 	color: #000 !important;	
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	}
 .footer2-wrap a {
 	color: #ffffff !important;	
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	}
@@ -1193,7 +1193,7 @@ P.F-header {
 	padding: 8px 12px;
 }
 .table-spec th {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 }
 @media screen and (max-width: 720px) {
 .table-spec {
@@ -1427,7 +1427,7 @@ figure.hdr.header-one figcaption {
 }
 .header-one figcaption H1 span:nth-of-type(2) {
     font-size: 22px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 }
 
 
@@ -1502,7 +1502,7 @@ figure.hdr.header-one figcaption {
     text-align: left;
     margin-top: 0.2em;
 	line-height: 1.3em;
-	font-family: "Quicksand", sans-serif;
+	font-family: "latoregular", sans-serif;
 	text-transform: none;
 }
 .p-banner H1,.p-banner-inner p {
@@ -1542,7 +1542,7 @@ figure.hdr.header-one figcaption {
 	transition: all 0.3s ease-in-out;
 }
 .h-icons P {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	font-size: 1.0em;
 }
 .h-icons img:hover {
@@ -1908,7 +1908,7 @@ figure.hdr.header-one figcaption {
 }
 .wbSliderSecondary {
 	font-size: 1.9em !important;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	margin-top: 0vh;
 	color: #ffffff;
 	background-color: #1eb78a;

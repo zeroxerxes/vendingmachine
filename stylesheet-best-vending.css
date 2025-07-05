@@ -7,6 +7,27 @@ body {
 	/*background-color: rgba(209,209,209,1.00);*/
 	}
 
+/* Import Quicksand from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Apply Quicksand to all elements */
+body,
+p, div, span,
+a, li, ul, ol,
+table, th, td,
+input, button, textarea,
+label, section, article, header, footer, nav {
+  font-family: 'Quicksand', sans-serif!important;
+	font-size: 18px;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Savate', serif!important;
+	letter-spacing: 0;
+	text-transform: capitalize;
+
+}
 .main-content {
 	margin-right: auto;
 	margin-bottom: 0px;
@@ -83,7 +104,7 @@ input:not([type=submit]):not([type=image]) {
 	width: calc(100% - 30px);
 	margin-bottom: 10px;
 	font-size: 1.0em;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	max-width: 100%;
 }
 select {
@@ -94,7 +115,7 @@ select {
 	width: calc(100% - 30px);
 	margin-bottom: 10px;
 	font-size: 1.0em;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	max-width: 100%;
 }
 textarea {
@@ -105,7 +126,7 @@ textarea {
 	width: calc(100% - 30px);
 	margin-bottom: 10px;
 	font-size: 1.0em;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	height: 150px;
 	max-width: 100%;
 }
@@ -242,7 +263,7 @@ textarea {
 	display: block;
 	padding: 0px 8px;
 	border-right: solid 1px #badce0;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	font-size: 0.9em;
 }
 .header-to-menu {
@@ -726,7 +747,7 @@ ol.ol_class {
 }
 .menu-int-wrap a {
 	color: #4d4d4f !important;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 
 }
 .menu-int-selected {
@@ -1307,7 +1328,7 @@ ol.ol_class {
 }
 .cat-title-nav-crumbs-wrap a {
 	color: #939393;
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	font-size: 0.9em;
 }
 .cat-title-nav-crumbs-wrap a:hover {
@@ -1399,7 +1420,7 @@ H3.mega-filter-title, H3.mega-filter-secondary-title {
 	line-height: 1em;
 }
 .product-sum1 a H2 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	color: #00afc7;
 }
 .product-sum1 P {
@@ -1421,7 +1442,7 @@ input.prod-sum-addtocart,.prod-det-addtocart {
 	border: none;
 }
 .cat-sum-fig a H2 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	text-align: center;
 	color: #000000;
 }
@@ -1557,12 +1578,12 @@ input.prod-sum-addtocart,.prod-det-addtocart {
 }
 
 .prod-detail-price {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	color: #465051;
 	font-size: 1.1em;
 }
 .prod-detail-nav-constrain a {
-    font-family: "Quicksand", sans-serif;
+    font-family: "latoregular", sans-serif;
 	color: #000000;
 }
 .addtocartform {
